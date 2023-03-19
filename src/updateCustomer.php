@@ -13,7 +13,7 @@ if (isset($_POST['CustomerID'])) {
 
     
     $stmt = $conn->prepare(
-        'UPDATE  Customer SET Name = :Name,Email = :Email WHERE CustomerID'
+        'UPDATE  Customer SET Name = :Name, Email = :Email WHERE CustomerID=:CustomerID'
     );
     $stmt->bindparam(':Name',$_POST['Name']);
     $stmt->bindparam(':Email',$_POST['Email']);
