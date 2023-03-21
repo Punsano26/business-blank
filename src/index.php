@@ -11,7 +11,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12"> <br>
-                    <h3>รายชื่อลูกค้า <a href="addCustomer_dropdown.php" class="btn btn-info float-end">+เพิ่มข้อมูล</a> </h3>
+                    <h3>รายชื่อลิสต์อาหารครับ <a href="addCustomer_dropdown.php" class="btn btn-info float-end">+เพิ่มรายการอาหาร</a> </h3>
                     <table class="table table-striped  table-hover table-responsive table-bordered">
                         <thead align="center">                        
                             <tr>
